@@ -1,1 +1,21 @@
 @use "reset";
+
+body {
+  text-align: center;
+}
+
+table {
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 850px;
+}
+
+td,
+th {
+  border-bottom: 1px solid black;
+}
+
+th {
+  background-color: rgb(205, 124, 205);
+}
