@@ -74,6 +74,24 @@ select {
 }
 body {
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #b5ede0;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  color: #f6a8eb;
+}
+
+main h2 {
+  margin: 25px 0;
+  color: #f6a8eb;
 }
 
 table {
@@ -81,6 +99,7 @@ table {
   margin: 0 auto;
   width: 80%;
   max-width: 850px;
+  border-spacing: 6px;
 }
 
 td,
@@ -89,7 +108,11 @@ th {
 }
 
 th {
-  background-color: rgb(205, 124, 205);
+  background-color: #f4ec8e;
+}
+
+code {
+  background-color: rgb(179, 179, 179);
 }
 
 /*# sourceMappingURL=styles.css.map */
